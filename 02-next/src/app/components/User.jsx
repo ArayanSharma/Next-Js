@@ -10,7 +10,7 @@ const User = async() => {
     <div className='flex flex-col justify-center gap-4 px-3 py-5 bg-amber-500'>
          {data.map((user) => (
        <h1 key={user.id} className='text-red-600 text-2xl font-bold w-full'>
-         {user.name}
+         ID: {user.id} | {user.name} | City: {user.address.city}
        </h1>
        ))}
     </div>
