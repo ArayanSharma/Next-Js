@@ -11,6 +11,7 @@ const User = async() => {
          {data.map((user) => (
        <h1 key={user.id} className='text-red-600 text-2xl font-bold w-full'>
          ID: {user.id} | {user.name} | City: {user.address.city}
+           <span/>
        </h1>
        ))}
     </div>
